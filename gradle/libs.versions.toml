@@ -3,6 +3,7 @@ jackson-version = "2.16.1"
 junit-version = "5.10.2"
 lombok-version = "1.18.24"
 slf4j-version = "2.0.10"
+apache-commons = "3.6.1"
 
 
 [libraries]
@@ -15,6 +16,7 @@ junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "jun
 
 lombok = { module = "org.projectlombok:lombok", version.ref = "lombok-version" }
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j-version" }
+apache-commons-maths = { module = "org.apache.commons:commons-math3", version.ref = "apache-commons" }
 
 
 
